@@ -1,0 +1,65 @@
+<html>
+<head>
+<title>
+dine booking
+</title> </head>
+<body>
+ <center>
+<h3> DINE BOOKING </h3>
+</center>
+<br><br>
+<center>
+<label for=" visitor name" <b> visitor name:</b> </label>
+<input type="text" place holder="visitor name" name="visiotor name" id="name" required> <br> <br>
+   </center>
+
+<center>
+<label for=" Number of Members" <b> Number of Members:</b> </label>
+<input type="Number" place holder="Number of Members" name="Number of Members" id="Number of Members" required> <br> <br>
+</center>
+
+
+<center>
+<label for=" Contact Number" <b> Contact Number:</b> </label>
+<input type="text" place holder="Contact Number" name="Contact Number" id="Contact Number" required> <br> <br>
+</center>   
+
+<center>
+<label for=" Email "<b>  Email :</b> </label>
+<input type="text" place holder= "Email " name=" Email " id=" Email " required> <br> <br>
+</center>   
+
+
+
+<center>
+<label for="Type pf food" <b>  Type of food:</b> </label>
+
+<input type="checkbox" name="dish1"    value="southindian"  checked>
+southindian
+<input type="checkbox" name="dish2"    value="northindian"  required>
+northindian
+
+<input type="checkbox" name="dish3"    value="chinese"  required>
+chinese
+
+<input type="checkbox" name="dish4"    value="western"  required>
+western
+</center>
+<br>
+ <center>
+<label for="Room status" <b> Room status :</b> </label>
+<input type="radio" name="AC" VALUE="AC"  checked>
+AC
+
+<input type="radio" name="Non-AC" VALUE="Non-AC"  required>
+Non-Ac
+<br><br>
+ <label for="Venue Preference"<b> Venue Preference: </b> </label>
+<select>
+
+<option value="SELECT" >SELECT </option>
+<option value="hotel"> hotel</option>
+<option value="venue"> venue</option>
+<option value="mythri" >mythri</option>
+<option value=vista""> vista</option>
+<option value="Amoeba" >amoeba </option>
